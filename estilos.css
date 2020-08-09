@@ -1,0 +1,177 @@
+
+/*-----------ESTILOS GENERALES--------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #1B1B1D;
+}
+
+.container {
+  width: 80%;
+  pborder: 1px solid #000;
+  margin: 0px auto;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+
+
+/*------------LOGO---------------*/
+
+header {
+  display: flex;
+}
+
+header .container_logo {
+  font-family: 'Red Rose', cursive;
+  height: 43px;
+  width: 360px;
+  background: white;
+  text-align: center;
+  margin-top: 21px;
+}
+
+header .container_logo h1 {
+  margin-top: 2px;
+}
+
+header p {
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width: 225px;
+  margin-top: 32px;
+}
+
+
+
+/*--------------MENU----------------*/
+
+.menu {
+  height: 50px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li .enlaces {
+  color: white;
+  text-decoration: none;
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  transition: .5s;
+}
+
+.menu ul li .enlaces:hover {
+  color: #D2A457;
+}
+
+.menu ul .barras {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 40px;
+  font-weight: bold;
+}
+
+
+
+/*----------------BANNER----------------*/
+
+.container_cabecera {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  ppborder: 1px solid #000;
+  color: #fff;
+  display: flex;
+}
+
+.container_cabecera .texto_cabecera {
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  ppborder: 1px solid black;
+  margin-top: 190px;
+  margin-left: 60px;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1500;
+}
+
+.container_cabecera .texto_cabecera .titulo {
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  color: #D2A457;
+  margin-left: 10px;
+}
+
+.container_cabecera .texto_cabecera .subtitulo {
+  font-family: 'Alegreya', serif;
+  color: #D2A457;
+  font-size: 17px;
+  margin-left: 10px;
+  font-weight: bold;
+  line-height: 0px;;
+}
+
+.container_cabecera img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  z-index: 1000;
+}
+
+
+
+/*------------------APARTADOS FINALES----------------*/
+
+#container_apartados {
+  display: flex;
+  width: 100%;
+  height: 162px;
+  ppborder: 1px solid black;
+  background-color: #fff;
+}
+
+.tarjetas {
+  width: 33.3%;
+  margin-top: 10px;
+  font-family: 'Alegreya', serif;
+  padding-left: 30px;
+}
+
+.tarjetas p {
+  font-size: 15px;
+
+}
+
+.tarjetas nav li {
+  list-style: none;
+  ppborder: 1px solid black;
+  width: 150px;
+  height: 35px;
+  margin-top: 25px;
+  background-color: #D2A457;
+  text-align: center;
+  line-height: 35px;
+}
+
+.tarjetas nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tarjetas nav li:hover {
+  border: 2px solid #fff;
+}
